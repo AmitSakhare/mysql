@@ -97,7 +97,7 @@ CREATE TABLE orderdetails (
     FOREIGN KEY (productCode) REFERENCES products (productCode)
 );
 
-SELECT * FROM customers;
+SELECT * FROM orderdetails;
 
 # Inserting Data
 insert into
